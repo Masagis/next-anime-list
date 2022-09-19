@@ -1,0 +1,15 @@
+{
+  // This file is required for VSCode to understand webpack aliases
+  "compilerOptions": {
+    // This must be specified if "paths" is set
+    "baseUrl": ".",
+    // Relative to "baseUrl"
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@actions/*": ["./src/store/actions/*"],
+      "@containers/*": ["./src/containers/*"],
+      "@configs/*": ["./src/configs/*"],
+      "@reducers/*": ["./src/store/reducers/*"]
+    }
+  }
+}
