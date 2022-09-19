@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 
 import reduxStore from '../src/store/store'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '@etchteam/next-pagination/dist/index.css'
 
 function MyApp({ Component, pageProps }) {
   return (
