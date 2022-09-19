@@ -2,7 +2,7 @@ import React from 'react'
 
 function index() {
   return (
-    <div>
+    <div className="bg-white container">
       <h1>masagis</h1>
     </div>
   )
