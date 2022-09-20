@@ -14,7 +14,8 @@ const initState = {
   },
   params: {
     page: 1,
-    limit: 10,
+    limit: 20,
+    sort: 'desc',
     q: '',
     type: '',
     status: '',
@@ -69,7 +70,6 @@ export const AnimeReducer = (state = initState, action) => {
         isLoading: true,
       }
     case actionTypes.GET_ANIME_RECOMENDATION_SUCCESS:
-      console.log('acf', action.payload?.data)
       return {
         ...state,
         isLoading: false,
