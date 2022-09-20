@@ -1,5 +1,5 @@
 import React from 'react'
-import Homes from '@containers/Index'
+import Homes from '../src/containers/Index'
 
 export default function Index() {
   return (
