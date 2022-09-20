@@ -27,6 +27,7 @@ export function getListAnime(params) {
       })
   }
 }
+
 export function getListAnimeByID(id) {
   return (dispatch) => {
     dispatch({ type: actionTypes.GET_ANIME_LIST_ID_REQUEST })
@@ -44,6 +45,30 @@ export function getListAnimeByID(id) {
       .catch((error) => {
         dispatch({
           type: actionTypes.GET_ANIME_LIST_ID_FAILED,
+          payload: error.response.data.messages,
+        })
+        throw error
+      })
+  }
+}
+
+export function getListAnimeRecomendation(id) {
+  return (dispatch) => {
+    dispatch({ type: actionTypes.GET_ANIME_RECOMENDATION_REQUEST })
+    return axios({
+      method: 'GET',
+      url: `${URL_API}/anime/${id}/recommendations`,
+    })
+      .then((response) => {
+        dispatch({
+          type: actionTypes.GET_ANIME_RECOMENDATION_SUCCESS,
+          payload: response.data,
+        })
+        return response.data
+      })
+      .catch((error) => {
+        dispatch({
+          type: actionTypes.GET_ANIME_RECOMENDATION_FAILED,
           payload: error.response.data.messages,
         })
         throw error

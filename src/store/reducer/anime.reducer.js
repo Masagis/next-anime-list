@@ -5,6 +5,7 @@ const initState = {
   message: null,
   listAnime: [],
   detailAnime: null,
+  animeRec: [],
   pagination: {
     currentPage: 1,
     lastPage: 1,
@@ -44,6 +45,7 @@ export const AnimeReducer = (state = initState, action) => {
         ...state,
         isLoading: false,
       }
+
     case actionTypes.GET_ANIME_LIST_ID_REQUEST:
       return {
         ...state,
@@ -56,6 +58,24 @@ export const AnimeReducer = (state = initState, action) => {
         detailAnime: action.payload?.data || null,
       }
     case actionTypes.GET_ANIME_LIST_ID_FAILED:
+      return {
+        ...state,
+        isLoading: false,
+      }
+
+    case actionTypes.GET_ANIME_RECOMENDATION_REQUEST:
+      return {
+        ...state,
+        isLoading: true,
+      }
+    case actionTypes.GET_ANIME_RECOMENDATION_SUCCESS:
+      console.log('acf', action.payload?.data)
+      return {
+        ...state,
+        isLoading: false,
+        animeRec: action.payload?.data || [],
+      }
+    case actionTypes.GET_ANIME_RECOMENDATION_FAILED:
       return {
         ...state,
         isLoading: false,
