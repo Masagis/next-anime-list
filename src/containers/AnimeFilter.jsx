@@ -9,7 +9,6 @@ import { getListAnime } from '@actions/anime.action'
 function AnimeFilter() {
   const dispatch = useDispatch()
   const data = useSelector((state) => state.anime)
-  console.log('data', data.params)
 
   const typeAnime = [
     {
@@ -92,18 +91,16 @@ function AnimeFilter() {
             onChange={(e) => handleSearch(e.target.value)}
           />
         </div>
-        <div className="col-md-3 mb-2">
+        <div className="col-md-4 mb-2">
           <Select
-            id="filter_type"
             name="filter_type"
             placeholder="- Filter Type -"
             options={typeAnime}
             onChange={(e) => handleFilter(e?.value, 'type')}
           />
         </div>
-        <div className="col-md-3 mb-2">
+        <div className="col-md-4 mb-2">
           <Select
-            id="status"
             name="status"
             placeholder="- Filter Status -"
             options={statusType}
