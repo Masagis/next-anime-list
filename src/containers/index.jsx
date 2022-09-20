@@ -49,7 +49,24 @@ function Index() {
               </div>
             ) : (
               <>
-                <AnimeData data={listAnime} router={router} />
+                <div>
+                  {listAnime?.length === 0 ? (
+                    <div className="text-center">
+                      <p>Data tidak ditemukan</p>
+                    </div>
+                  ) : (
+                    <div className="row">
+                      {listAnime?.map((item) => (
+                        <AnimeData
+                          data={item}
+                          handleDetailAnime={() =>
+                            router.push(`/anime/detail/${item?.mal_id}`)
+                          }
+                        />
+                      ))}
+                    </div>
+                  )}
+                </div>
                 <hr />
                 <Pagination total={pagination?.count} />
               </>

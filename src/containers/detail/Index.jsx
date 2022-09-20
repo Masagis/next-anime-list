@@ -40,10 +40,24 @@ function Index() {
         <CardSynopsis data={detailAnime} />
         <CardDetailAnime data={detailAnime} />
         <CardTrailer data={detailAnime} />
-        <CardRecomendation data={animeRec} />
+
+        <div className="card mb-5">
+          <div className="card-header text-center">
+            Rekomendasi Anime Lainnya
+          </div>
+          <div className="card-body">
+            <div className="row">
+              {animeRec?.map((item) => (
+                <CardRecomendation
+                  data={item}
+                  handleDetail={() => `/anime/detail/${item?.entry?.mal_id}`}
+                />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
 }
-
 export default Index

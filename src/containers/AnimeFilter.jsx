@@ -1,8 +1,11 @@
 import React from 'react'
 import { debounce } from 'lodash'
-import Select from 'react-select'
-import { Input } from 'reactstrap'
+
 import { useDispatch, useSelector } from 'react-redux'
+
+import Search from '@components/Search'
+import SelectType from '@components/SelectType'
+import SelectStatus from '@components/SelectStatus'
 
 import { getListAnime } from '@actions/anime.action'
 
@@ -12,7 +15,7 @@ function AnimeFilter() {
 
   const typeAnime = [
     {
-      value: '',
+      value: 'all',
       label: '- All Type-',
     },
     {
@@ -83,30 +86,9 @@ function AnimeFilter() {
   return (
     <div>
       <div className="row">
-        <div className="col-md-4 mb-2">
-          <Input
-            id="search"
-            type="search"
-            placeholder="Cari..."
-            onChange={(e) => handleSearch(e.target.value)}
-          />
-        </div>
-        <div className="col-md-4 mb-2">
-          <Select
-            name="filter_type"
-            placeholder="- Filter Type -"
-            options={typeAnime}
-            onChange={(e) => handleFilter(e?.value, 'type')}
-          />
-        </div>
-        <div className="col-md-4 mb-2">
-          <Select
-            name="status"
-            placeholder="- Filter Status -"
-            options={statusType}
-            onChange={(e) => handleFilter(e?.value, 'status')}
-          />
-        </div>
+        <Search handleSearch={handleSearch} />
+        <SelectType typeAnime={typeAnime} handleFilter={handleFilter} />
+        <SelectStatus statusType={statusType} handleFilter={handleFilter} />
       </div>
     </div>
   )
