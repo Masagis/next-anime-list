@@ -13,31 +13,23 @@ function Index() {
   const router = useRouter()
   const dispatch = useDispatch()
 
-  const { isLoading, listAnime, pagination } = useSelector(
+  const { isLoading, listAnime, pagination, params } = useSelector(
     (state) => state.anime,
   )
-
-  const params = {
-    page: 1,
-    limit: 20,
-    q: '',
-    type: '',
-  }
 
   useEffect(() => {
     if (router?.query?.page || router?.query?.size) {
       dispatch(
         getListAnime({
+          ...params,
           page: router?.query?.page,
           limit: router?.query?.size,
-          q: '',
-          type: '',
         }),
       )
     } else {
       dispatch(getListAnime(params))
     }
-  }, [router?.query?.page, router?.query?.size])
+  }, [params, router?.query?.page, router?.query?.size])
 
   return (
     <div className="bg-white container">

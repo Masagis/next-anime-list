@@ -9,6 +9,7 @@ import { getListAnime } from '@actions/anime.action'
 function AnimeFilter() {
   const dispatch = useDispatch()
   const data = useSelector((state) => state.anime)
+  console.log('data', data.params)
 
   const typeAnime = [
     {
