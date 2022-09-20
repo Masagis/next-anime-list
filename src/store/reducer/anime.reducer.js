@@ -40,6 +40,7 @@ export const AnimeReducer = (state = initState, action) => {
           count: action.payload?.pagination?.items?.total || 0,
           recordPerPage: action.payload?.pagination?.items?.per_page || 10,
         },
+        params: action?.params,
       }
     case actionTypes.GET_ANIME_LIST_FAILED:
       return {

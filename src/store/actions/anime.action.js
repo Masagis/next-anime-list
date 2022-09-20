@@ -15,6 +15,7 @@ export function getListAnime(params) {
         dispatch({
           type: actionTypes.GET_ANIME_LIST_SUCCESS,
           payload: response.data,
+          params,
         })
         return response.data
       })
