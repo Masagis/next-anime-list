@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CardRecomendation snapshoot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-hidden="true"
+        class="col-md-2"
+        data-testid="card-recomendation-anime"
+        style="cursor: pointer;"
+      >
+        <div
+          class="card shadow mb-3"
+        >
+          <img
+            alt="banner-anime"
+            class="mb-2 img-fluid rounded"
+            data-testid="image-recomendation-anime"
+            src="https://cdn.myanimelist.net/images/anime/1337/99013.jpg?s=1838e905a0aa3542a009fbcf78000701"
+          />
+          <p
+            class="text-center"
+            data-testid="title-recomendation-anime"
+          >
+            Hunter x Hunter (2011)
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-hidden="true"
+      class="col-md-2"
+      data-testid="card-recomendation-anime"
+      style="cursor: pointer;"
+    >
+      <div
+        class="card shadow mb-3"
+      >
+        <img
+          alt="banner-anime"
+          class="mb-2 img-fluid rounded"
+          data-testid="image-recomendation-anime"
+          src="https://cdn.myanimelist.net/images/anime/1337/99013.jpg?s=1838e905a0aa3542a009fbcf78000701"
+        />
+        <p
+          class="text-center"
+          data-testid="title-recomendation-anime"
+        >
+          Hunter x Hunter (2011)
+        </p>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

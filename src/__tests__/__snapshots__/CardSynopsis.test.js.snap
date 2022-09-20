@@ -1,0 +1,262 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CardSynopsis snapshoot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="card shadow mb-3"
+          data-testid="card-sinopsis-anime"
+        >
+          <div
+            class="card-body"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-md-3"
+              >
+                <div
+                  class="text-center"
+                >
+                  <img
+                    alt="poster-anime"
+                    class="img-fluid rounded"
+                    data-testid="image-sinopsis-anime"
+                    src="https://cdn.myanimelist.net/images/anime/6/73245.jpg"
+                  />
+                </div>
+                <div
+                  class="mt-3"
+                >
+                  <button
+                    class="btn btn-outline-light text-dark fw-bold w-100 h-20"
+                    type="button"
+                  >
+                    <div
+                      data-testid="score-sinopsis-anime"
+                    >
+                      <svg
+                        fill="currentColor"
+                        height="1em"
+                        stroke="currentColor"
+                        stroke-width="0"
+                        style="color: rgb(245, 139, 43);"
+                        viewBox="0 0 576 512"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                        />
+                      </svg>
+                      8.67
+                    </div>
+                    <small
+                      class="text-muted"
+                      data-testid="scoredby-sinopsis-anime"
+                    >
+                      / 
+                      1121335
+                    </small>
+                  </button>
+                </div>
+              </div>
+              <div
+                class="col-md-9"
+              >
+                <h4
+                  data-testid="title-sinopsis-anime"
+                >
+                  One Piece
+                </h4>
+                <p
+                  data-testid="sinopsis-anime"
+                >
+                  Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece. [Written by MAL Rewrite]
+                </p>
+                <button
+                  class="btn btn-outline-secondary me-2"
+                  data-testid="genre-0-sinopsis-anime"
+                  type="button"
+                >
+                  Action
+                </button>
+                <button
+                  class="btn btn-outline-secondary me-2"
+                  data-testid="genre-1-sinopsis-anime"
+                  type="button"
+                >
+                  Adventure
+                </button>
+                <button
+                  class="btn btn-outline-secondary me-2"
+                  data-testid="genre-2-sinopsis-anime"
+                  type="button"
+                >
+                  Fantasy
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="card shadow mb-3"
+        data-testid="card-sinopsis-anime"
+      >
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-3"
+            >
+              <div
+                class="text-center"
+              >
+                <img
+                  alt="poster-anime"
+                  class="img-fluid rounded"
+                  data-testid="image-sinopsis-anime"
+                  src="https://cdn.myanimelist.net/images/anime/6/73245.jpg"
+                />
+              </div>
+              <div
+                class="mt-3"
+              >
+                <button
+                  class="btn btn-outline-light text-dark fw-bold w-100 h-20"
+                  type="button"
+                >
+                  <div
+                    data-testid="score-sinopsis-anime"
+                  >
+                    <svg
+                      fill="currentColor"
+                      height="1em"
+                      stroke="currentColor"
+                      stroke-width="0"
+                      style="color: rgb(245, 139, 43);"
+                      viewBox="0 0 576 512"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M259.3 17.8L194 150.2 47.9 171.5c-26.2 3.8-36.7 36.1-17.7 54.6l105.7 103-25 145.5c-4.5 26.3 23.2 46 46.4 33.7L288 439.6l130.7 68.7c23.2 12.2 50.9-7.4 46.4-33.7l-25-145.5 105.7-103c19-18.5 8.5-50.8-17.7-54.6L382 150.2 316.7 17.8c-11.7-23.6-45.6-23.9-57.4 0z"
+                      />
+                    </svg>
+                    8.67
+                  </div>
+                  <small
+                    class="text-muted"
+                    data-testid="scoredby-sinopsis-anime"
+                  >
+                    / 
+                    1121335
+                  </small>
+                </button>
+              </div>
+            </div>
+            <div
+              class="col-md-9"
+            >
+              <h4
+                data-testid="title-sinopsis-anime"
+              >
+                One Piece
+              </h4>
+              <p
+                data-testid="sinopsis-anime"
+              >
+                Gol D. Roger was known as the "Pirate King," the strongest and most infamous being to have sailed the Grand Line. The capture and execution of Roger by the World Government brought a change throughout the world. His last words before his death revealed the existence of the greatest treasure in the world, One Piece. It was this revelation that brought about the Grand Age of Pirates, men who dreamed of finding One Piece—which promises an unlimited amount of riches and fame—and quite possibly the pinnacle of glory and the title of the Pirate King. Enter Monkey D. Luffy, a 17-year-old boy who defies your standard definition of a pirate. Rather than the popular persona of a wicked, hardened, toothless pirate ransacking villages for fun, Luffy's reason for being a pirate is one of pure wonder: the thought of an exciting adventure that leads him to intriguing people and ultimately, the promised treasure. Following in the footsteps of his childhood hero, Luffy and his crew travel across the Grand Line, experiencing crazy adventures, unveiling dark mysteries and battling strong enemies, all in order to reach the most coveted of all fortunes—One Piece. [Written by MAL Rewrite]
+              </p>
+              <button
+                class="btn btn-outline-secondary me-2"
+                data-testid="genre-0-sinopsis-anime"
+                type="button"
+              >
+                Action
+              </button>
+              <button
+                class="btn btn-outline-secondary me-2"
+                data-testid="genre-1-sinopsis-anime"
+                type="button"
+              >
+                Adventure
+              </button>
+              <button
+                class="btn btn-outline-secondary me-2"
+                data-testid="genre-2-sinopsis-anime"
+                type="button"
+              >
+                Fantasy
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

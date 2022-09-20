@@ -1,0 +1,346 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component CardDetailAnime snapshoot 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <div
+          class="card shadow mb-3"
+          data-testid="card-detail-anime"
+        >
+          <div
+            class="card-header text-center"
+          >
+            Anime Detail
+          </div>
+          <div
+            class="card-body"
+          >
+            <div
+              class="row"
+            >
+              <div
+                class="col-md-6"
+              >
+                <table
+                  class="table table-hover"
+                >
+                  <tbody>
+                    <tr>
+                      <th>
+                        Synonyms
+                      </th>
+                      <td
+                        data-testid="title-detail-anime"
+                      >
+                        ONE PIECE
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Status
+                      </th>
+                      <td
+                        data-testid="status-detail-anime"
+                      >
+                        Currently Airing
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Source
+                      </th>
+                      <td
+                        data-testid="source-detail-anime"
+                      >
+                        Manga
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Total Episode
+                      </th>
+                      <td
+                        data-testid="episodes-detail-anime"
+                      >
+                        12
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Producers
+                      </th>
+                      <td
+                        data-testid="producer-detail-anime"
+                      >
+                        Fuji TV, 
+                        TAP, 
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div
+                class="col-md-6"
+              >
+                <table
+                  class="table table-hover"
+                >
+                  <tbody>
+                    <tr>
+                      <th>
+                        English
+                      </th>
+                      <td
+                        data-testid="english-detail-anime"
+                      >
+                        One Piece
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Tipe
+                      </th>
+                      <td
+                        data-testid="type-detail-anime"
+                      >
+                        TV
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Durasi
+                      </th>
+                      <td
+                        data-testid="duration-detail-anime"
+                      >
+                        24 min
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Studio
+                      </th>
+                      <td
+                        data-testid="studios-detail-anime"
+                      >
+                        Toei Animation, 
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>
+                        Rilis
+                      </th>
+                      <td
+                        data-testid="rilis-detail-anime"
+                      >
+                        Oct 20, 1999 to ?
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="card shadow mb-3"
+        data-testid="card-detail-anime"
+      >
+        <div
+          class="card-header text-center"
+        >
+          Anime Detail
+        </div>
+        <div
+          class="card-body"
+        >
+          <div
+            class="row"
+          >
+            <div
+              class="col-md-6"
+            >
+              <table
+                class="table table-hover"
+              >
+                <tbody>
+                  <tr>
+                    <th>
+                      Synonyms
+                    </th>
+                    <td
+                      data-testid="title-detail-anime"
+                    >
+                      ONE PIECE
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Status
+                    </th>
+                    <td
+                      data-testid="status-detail-anime"
+                    >
+                      Currently Airing
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Source
+                    </th>
+                    <td
+                      data-testid="source-detail-anime"
+                    >
+                      Manga
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Total Episode
+                    </th>
+                    <td
+                      data-testid="episodes-detail-anime"
+                    >
+                      12
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Producers
+                    </th>
+                    <td
+                      data-testid="producer-detail-anime"
+                    >
+                      Fuji TV, 
+                      TAP, 
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="col-md-6"
+            >
+              <table
+                class="table table-hover"
+              >
+                <tbody>
+                  <tr>
+                    <th>
+                      English
+                    </th>
+                    <td
+                      data-testid="english-detail-anime"
+                    >
+                      One Piece
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Tipe
+                    </th>
+                    <td
+                      data-testid="type-detail-anime"
+                    >
+                      TV
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Durasi
+                    </th>
+                    <td
+                      data-testid="duration-detail-anime"
+                    >
+                      24 min
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Studio
+                    </th>
+                    <td
+                      data-testid="studios-detail-anime"
+                    >
+                      Toei Animation, 
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>
+                      Rilis
+                    </th>
+                    <td
+                      data-testid="rilis-detail-anime"
+                    >
+                      Oct 20, 1999 to ?
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
