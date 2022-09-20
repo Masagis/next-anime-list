@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaStar } from 'react-icons/fa'
 
 function CardSynopsis(props) {
   const { data } = props
@@ -13,20 +14,25 @@ function CardSynopsis(props) {
                 alt="poster-anime"
                 className="img-fluid rounded"
               />
-              <div className="card shadow mt-2">
-                <div className="card-body">
-                  <p className="fw-bold text-center">
-                    Rating {data?.score}{' '}
-                    <small className="text-muted">/ {data?.scored_by}</small>
-                  </p>
-                </div>
+              <div className="mt-3">
+                <button
+                  className="btn btn-outline-light text-dark fw-bold w-100 h-20"
+                  type="button"
+                  style={{ border: 'none' }}
+                >
+                  <FaStar style={{ color: '#f58b2b' }} /> {data?.score}{' '}
+                  <small className="text-muted">/ {data?.scored_by}</small>
+                </button>
               </div>
             </div>
             <div className="col-md-9">
               <h4>{data?.title}</h4>
               <p>{data?.synopsis}</p>
               {data?.genres?.map((item) => (
-                <button className="btn btn-outline-primary me-2" type="button">
+                <button
+                  className="btn btn-outline-secondary me-2"
+                  type="button"
+                >
                   {item?.name}
                 </button>
               ))}
