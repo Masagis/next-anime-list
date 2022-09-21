@@ -3,7 +3,7 @@
 
 ## Tentang
 
-Ini adalah repositori Frontend Daftar Anime Menggunakan API Public dari Jikan. Dikembangkan oleh [https://github.com/Masagis](Agis Tri Wahyuji).
+Ini adalah repositori Frontend Daftar Anime Menggunakan API Public dari Jikan. Dikembangkan oleh [Agis Tri Wahyuji](https://github.com/Masagis).
 
 ## Dikembangkan Dengan
 
@@ -74,4 +74,4 @@ yarn dev
 
 ## Live Aplikasi
 
-[https://jikan-anime-next.vercel.app](Jikan Anime Next)
+[Jikan Anime Next](https://jikan-anime-next.vercel.app)
